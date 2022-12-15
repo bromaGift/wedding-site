@@ -2,7 +2,7 @@ import Head from "next/head";
 import CoupleStories from "../components/coupleStories";
 import Hero from "../components/hero";
 import Moments from "../components/moments";
-import Nft from "../components/Nft";
+import Nfts from "../components/nfts";
 import Story from "../components/story";
 import styles from "../styles/Home.module.css";
 
@@ -19,7 +19,7 @@ export default function Home() {
       </Head>
       <Hero />
       <Story />
-      <Nft />
+      <Nfts />
       <Moments />
       <CoupleStories />
     </>
