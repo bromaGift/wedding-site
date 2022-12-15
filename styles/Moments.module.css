@@ -1,0 +1,51 @@
+.container {
+  padding: 80px 50px;
+}
+.top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.top h1 {
+  font-family: "Dancing Script";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  color: #401528;
+}
+.top h2 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  text-align: center;
+  color: #2c1a18;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 350px));
+  gap: 30px;
+  padding: 20px 40px;
+}
+/* .grid > div {
+  width: 400px;
+  height: 400px;
+} */
+.grid img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+@media (max-width: 600px) {
+  .container {
+    padding: 60px 30px;
+  }
+  .grid {
+    padding: 20px;
+  }
+}

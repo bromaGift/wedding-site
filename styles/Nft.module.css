@@ -1,0 +1,31 @@
+.container {
+  background: #d9d9d9;
+  padding: 80px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container h1 {
+  font-family: "Dancing Script";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  color: #401528;
+}
+.container p {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #401528;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 60px 30px;
+  }
+}

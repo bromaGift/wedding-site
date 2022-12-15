@@ -1,0 +1,54 @@
+.container {
+  background: #d9d9d9;
+  padding: 80px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container h1 {
+  font-family: "Dancing Script";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  margin-bottom: -5px;
+  line-height: 77px;
+  color: #401528;
+}
+.container p {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 35px;
+  text-align: center;
+
+  color: #2c1a18;
+}
+
+.container button {
+  background: #e58776;
+  border-color: transparent;
+  border-radius: 10px;
+  padding: 10px 30px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 60px 30px;
+  }
+  .container h1 {
+    font-size: 44px;
+  }
+  .container p {
+    font-size: 24px;
+  }
+}
