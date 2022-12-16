@@ -32,14 +32,11 @@
   gap: 30px;
   padding: 20px 40px;
 }
-/* .grid > div {
-  width: 400px;
-  height: 400px;
-} */
+
 .grid img {
   width: 100%;
-  height: auto;
-  object-fit: contain;
+  height: 300px;
+  object-fit: cover;
 }
 @media (max-width: 600px) {
   .container {
