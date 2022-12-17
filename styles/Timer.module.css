@@ -1,0 +1,53 @@
+.container {
+  padding: 80px 50px;
+}
+.top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.top h1 {
+  font-family: "Dancing Script";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  color: #401528;
+}
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 40px;
+}
+.timer h2 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 80px;
+  text-align: center;
+  color: #401528;
+  margin-bottom: 10px;
+}
+.timer p {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  /* identical to box height */
+  text-align: center;
+  color: #e58776;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 30px;
+  }
+  .timer h2 {
+    font-size: 44px;
+  }
+}

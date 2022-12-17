@@ -1,6 +1,7 @@
 .container {
   background: #2c1a18;
   padding: 80px 50px;
+  overflow-x: hidden;
 }
 
 .top {
@@ -15,7 +16,6 @@
   font-weight: 700;
   font-size: 36px;
   line-height: 43px;
-
   color: #e58776;
 }
 .top p {
@@ -30,7 +30,6 @@
 }
 .section {
   padding-top: 40px;
-  /* padding: 80px 50px; */
   position: relative;
   top: 0;
   left: 0;
@@ -131,13 +130,16 @@
   font-weight: 300;
   font-size: 16px;
   line-height: 20px;
-
   color: #2c1a18;
 }
 
 @media (max-width: 600px) {
   .container {
     padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .line {
     display: none;
@@ -159,5 +161,122 @@
   .arrow,
   .arrow2 {
     display: none;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 912px) {
+  .container {
+    padding: 20px;
+  }
+  .line {
+    display: none;
+  }
+  .circle1,
+  .circle2,
+  .circle3,
+  .circle4 {
+    display: none;
+  }
+  .card {
+    position: relative;
+    left: 5px;
+    top: 10px;
+  }
+  .card2 {
+    position: relative;
+    left: 410px;
+    bottom: 298px;
+  }
+
+  .card3 {
+    position: relative;
+    left: 5px;
+    bottom: 300px;
+  }
+  .card4 {
+    position: relative;
+    left: 410px;
+    bottom: 550px;
+  }
+}
+
+@media (min-width: 912px) and (max-width: 1280px) {
+  .container {
+    padding: 50px;
+  }
+  .card {
+    position: relative;
+    left: 15px;
+    top: 10px;
+  }
+
+  .card2 {
+    position: relative;
+    left: 530px;
+    bottom: 298px;
+  }
+
+  .card3 {
+    position: relative;
+    left: 15px;
+    bottom: 360px;
+  }
+
+  .card4 {
+    position: relative;
+    left: 530px;
+    bottom: 550px;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1980px) {
+  .card {
+    position: relative;
+    left: 190px;
+    top: 10px;
+  }
+
+  .card2 {
+    position: relative;
+    left: 800px;
+    bottom: 298px;
+  }
+
+  .card3 {
+    position: relative;
+    left: 190px;
+    bottom: 360px;
+  }
+
+  .card4 {
+    position: relative;
+    left: 800px;
+    bottom: 550px;
+  }
+}
+
+@media (min-width: 1980px) {
+  .card {
+    position: relative;
+    left: 790px;
+    top: 10px;
+  }
+
+  .card2 {
+    position: relative;
+    left: 1350px;
+    bottom: 298px;
+  }
+
+  .card3 {
+    position: relative;
+    left: 790px;
+    bottom: 360px;
+  }
+
+  .card4 {
+    position: relative;
+    left: 1350px;
+    bottom: 550px;
   }
 }
