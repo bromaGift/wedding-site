@@ -12,6 +12,8 @@
   font-weight: 700;
   font-size: 36px;
   line-height: 43px;
+  margin-bottom: -5px;
+
   color: #401528;
 }
 .container p {

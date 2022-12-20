@@ -17,6 +17,7 @@
   font-size: 36px;
   line-height: 43px;
   color: #e58776;
+  margin-bottom: -10px;
 }
 .top p {
   font-family: "Mulish";
@@ -74,7 +75,7 @@
 .card4 {
   background: #ffffff;
   border-radius: 2px;
-  padding: 15px;
+  padding: 10px;
   width: 330px;
   margin-bottom: 40px;
 }
@@ -82,7 +83,7 @@
   width: 100%;
   height: 280px;
   object-fit: cover;
-  border-radius: 5px;
+  border-radius: 7px;
 }
 .card {
   position: relative;
@@ -206,26 +207,26 @@
   }
   .card {
     position: relative;
-    left: 15px;
+    left: 18px;
     top: 10px;
   }
 
   .card2 {
     position: relative;
     left: 530px;
-    bottom: 298px;
+    bottom: 268px;
   }
 
   .card3 {
     position: relative;
-    left: 15px;
-    bottom: 360px;
+    left: 18px;
+    bottom: 300px;
   }
 
   .card4 {
     position: relative;
     left: 530px;
-    bottom: 550px;
+    bottom: 460px;
   }
 }
 
@@ -238,20 +239,20 @@
 
   .card2 {
     position: relative;
-    left: 800px;
-    bottom: 298px;
+    left: 720px;
+    bottom: 268px;
   }
 
   .card3 {
     position: relative;
     left: 190px;
-    bottom: 360px;
+    bottom: 300px;
   }
 
   .card4 {
     position: relative;
-    left: 800px;
-    bottom: 550px;
+    left: 720px;
+    bottom: 460px;
   }
 }
 
