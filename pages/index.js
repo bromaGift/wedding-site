@@ -3,7 +3,7 @@ import Celebrate from "../components/celebrate";
 import CoupleStories from "../components/coupleStories";
 import Event from "../components/event";
 import Hero from "../components/hero";
-import Moments from "../components/moments";
+import Moments from "./moments";
 import Nfts from "../components/nfts";
 import SeeYou from "../components/footer";
 import Story from "../components/story";

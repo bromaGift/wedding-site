@@ -38,8 +38,8 @@ export default function Footer() {
         <path
           d="M1 1.8291H181"
           stroke="#2C1A18"
-          stroke-width="2"
-          stroke-linecap="round"
+          strokeWidth="2"
+          strokeLinecap="round"
         />
       </svg>
       <h2>11. 02. 23</h2>

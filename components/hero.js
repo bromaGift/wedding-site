@@ -22,7 +22,7 @@ export default function Hero() {
             <a href="#">Our Nfts</a>
           </li>
           <li>
-            <a href="#">Special Moments</a>
+            <a href="moments">Special Moments</a>
           </li>
           <li>
             <a href="#">Events Schedule</a>
