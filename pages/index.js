@@ -5,10 +5,11 @@ import Event from "../components/event";
 import Hero from "../components/hero";
 import Moments from "../components/moments";
 import Nfts from "../components/nfts";
-import SeeYou from "../components/seeYou";
+import SeeYou from "../components/footer";
 import Story from "../components/story";
 import Timer from "../components/timer";
 import styles from "../styles/Home.module.css";
+import Footer from "../components/footer";
 
 export default function Home() {
   return (
@@ -22,14 +23,18 @@ export default function Home() {
         />
       </Head>
       <Hero />
-      <Story />
-      <Nfts />
-      <Moments />
-      <CoupleStories />
+      <div className={styles.img}>
+        <img src="/images/hero image.png" />
+      </div>
       <Timer />
+      <Story />
+      {/* <Nfts /> */}
+      {/* <Moments /> */}
+      {/* <CoupleStories /> */}
+
       <Event />
-      <Celebrate />
-      <SeeYou />
+      {/* <Celebrate /> */}
+      <Footer />
     </>
   );
 }

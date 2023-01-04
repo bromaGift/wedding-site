@@ -1,9 +1,9 @@
-import styles from "../styles/SeeYou.module.css";
+import styles from "../styles/Footer.module.css";
 
-export default function SeeYou() {
+export default function Footer() {
   return (
     <div className={styles.container}>
-      <div className={styles.top}>
+      {/* <div className={styles.top}>
         <h1>See You There</h1>
         <p>Lorem ipsum dolor sit amet</p>
         <img src="/svg/love.svg" />
@@ -26,7 +26,23 @@ export default function SeeYou() {
           <h2>Email us</h2>
           <p>jsf3@fja.com</p>
         </div>
-      </div>
+      </div> */}
+      <h1>BecomingOG</h1>
+      <svg
+        width="182"
+        height="3"
+        viewBox="0 0 182 3"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M1 1.8291H181"
+          stroke="#2C1A18"
+          stroke-width="2"
+          stroke-linecap="round"
+        />
+      </svg>
+      <h2>11. 02. 23</h2>
     </div>
   );
 }
