@@ -4,11 +4,6 @@ import Link from "next/link";
 export default function Story() {
   return (
     <div className={styles.container}>
-      {/* <div className={styles.top}>
-        <h1>This Is Our Story</h1>
-        <p>Lorem ipsum dolor sit amet.</p>
-        <img src="/svg/love.svg" />
-      </div> */}
       <div className={styles.couple}>
         <div className={styles.couplediv}>
           <div className={styles.groom}>
@@ -30,7 +25,7 @@ export default function Story() {
               </div>
             </div>
             <div className={styles.btn}>
-              <a href="/his-story">His Story</a>
+              <Link href="/his-story">His Story</Link>
             </div>
           </div>
 
@@ -53,7 +48,7 @@ export default function Story() {
               </div>
             </div>
             <div className={styles.btn}>
-              <a href="/her-story">Her Story</a>
+              <Link href="/her-story">Her Story</Link>
             </div>
           </div>
         </div>
