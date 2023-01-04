@@ -1,4 +1,5 @@
 import styles from "../styles/Hero.module.css";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -13,19 +14,19 @@ export default function Hero() {
       <section className={styles.section}>
         <ul>
           <li>
-            <a href="/">Home</a>
+            <Link href="/">Home</Link>
           </li>
           <li>
-            <a href="/our-story">Our Story</a>
+            <Link href="/our-story">Our Story</Link>
           </li>
           <li>
-            <a href="#">Our Nfts</a>
+            <Link href="#">Our Nfts</Link>
           </li>
           <li>
-            <a href="moments">Special Moments</a>
+            <Link href="moments">Special Moments</Link>
           </li>
           <li>
-            <a href="#">Events Schedule</a>
+            <Link href="#">Events Schedule</Link>
           </li>
         </ul>
       </section>

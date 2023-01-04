@@ -34,7 +34,6 @@ export default function Moments() {
       <div className={styles.container}>
         <div className={styles.top}>
           <h1>Moments of Love</h1>
-          <img src="/svg/love.svg" />
         </div>
 
         <div className={styles.grid}>
