@@ -1,4 +1,5 @@
 import styles from "../styles/Timer.module.css";
+import { useState, useEffect } from "react";
 
 export default function Timer() {
   return (
