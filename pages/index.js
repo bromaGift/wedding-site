@@ -9,7 +9,7 @@ import SeeYou from "../components/falseFooter";
 import Story from "../components/story";
 import Timer from "../components/timer";
 import styles from "../styles/Home.module.css";
-import Footer from "../components/Footer";
+import Footer from "../components/footer";
 import SpecialMoments from "../components/specialMoments";
 import FalseFooter from "../components/falseFooter";
 
