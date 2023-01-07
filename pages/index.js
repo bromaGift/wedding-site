@@ -5,11 +5,13 @@ import Event from "../components/event";
 import Hero from "../components/hero";
 import Moments from "./moments";
 import Nfts from "../components/nfts";
-import SeeYou from "../components/footer";
+import SeeYou from "../components/falseFooter";
 import Story from "../components/story";
 import Timer from "../components/timer";
 import styles from "../styles/Home.module.css";
-import Footer from "../components/footer";
+import Footer from "../components/Footer";
+import SpecialMoments from "../components/specialMoments";
+import FalseFooter from "../components/falseFooter";
 
 export default function Home() {
   return (
@@ -28,12 +30,14 @@ export default function Home() {
       </div>
       <Timer />
       <Story />
+      <SpecialMoments />
       {/* <Nfts /> */}
-      {/* <Moments /> */}
-      {/* <CoupleStories /> */}
+      <CoupleStories />
 
       <Event />
+
       {/* <Celebrate /> */}
+      <FalseFooter />
       <Footer />
     </>
   );

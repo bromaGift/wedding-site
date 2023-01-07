@@ -1,4 +1,4 @@
-/* .container {
+.container1 {
   padding: 30px 50px;
   background: #2c1a18;
 }
@@ -32,21 +32,53 @@
 .section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 30px;
-  padding: 0 50px;
+  column-gap: 40px;
+  padding: 0 40px;
 }
+
 .section h2 {
-  font-family: "Dancing Script";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 29px;
-  text-align: center;
- 
+  font-family: "Taviraj";
+  font-style: italic;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 41px;
+  /* identical to box height */
+
   color: #ffffff;
 }
 
 .section p {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+}
+.section h3 {
+  font-family: "Taviraj";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 41px;
+  /* identical to box height */
+  color: #ffffff;
+}
+.socials {
+  display: flex;
+  flex-direction: column;
+}
+.socials p {
+  font-family: "Taviraj";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 41px;
+  margin-bottom: -20px;
+  /* identical to box height */
+  color: #ffffff;
+}
+.socials span {
   font-family: "Mulish";
   font-style: normal;
   font-weight: 300;
@@ -58,14 +90,17 @@
 }
 
 @media (max-width: 600px) {
-  .container {
-    padding: 30px;
+  .container1 {
+    padding: 30px 10px;
   }
   .section {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
   }
-} */
+  .socials {
+    margin-bottom: 20px;
+  }
+}
 
 .container {
   padding: 30px;

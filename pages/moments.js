@@ -1,4 +1,4 @@
-import Footer from "../components/footer";
+import Footer from "../components/falseFooter";
 import Hero from "../components/hero";
 import styles from "../styles/Moments.module.css";
 

@@ -1,4 +1,4 @@
-import Footer from "../components/footer";
+import FalseFooter from "../components/FalseFooter";
 import Hero from "../components/hero";
 import styles from "../styles/HisStory.module.css";
 
@@ -44,7 +44,7 @@ export default function HisStory() {
         </div>
       </div>
 
-      <Footer />
+      <FalseFooter />
     </>
   );
 }

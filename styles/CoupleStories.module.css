@@ -69,10 +69,17 @@
   margin-left: -13px;
   top: 1100px;
 }
+.circle5 {
+  position: absolute;
+  left: 50%;
+  margin-left: -13px;
+  top: 1340px;
+}
 .card,
 .card2,
 .card3,
-.card4 {
+.card4,
+.card5 {
   background: #ffffff;
   border-radius: 2px;
   padding: 10px;
@@ -111,6 +118,11 @@
   left: 190px;
   bottom: 360px;
 }
+.card5 {
+  position: relative;
+  left: 190px;
+  bottom: 660px;
+}
 
 .card4 {
   position: relative;
@@ -118,11 +130,11 @@
   bottom: 550px;
 }
 .info h2 {
-  font-family: "Mulish";
-  font-style: normal;
+  font-family: "Taviraj";
+  font-style: italic;
   font-weight: 800;
   font-size: 18px;
-  line-height: 23px;
+  line-height: 34px;
   color: #401528;
 }
 .info p {
@@ -131,6 +143,7 @@
   font-weight: 300;
   font-size: 16px;
   line-height: 20px;
+
   color: #2c1a18;
 }
 
@@ -148,13 +161,15 @@
   .circle1,
   .circle2,
   .circle3,
-  .circle4 {
+  .circle4,
+  .card5 {
     display: none;
   }
   .card,
   .card2,
   .card3,
-  .card4 {
+  .card4,
+  .card5 {
     position: relative;
     left: 0;
     top: 0;
@@ -175,7 +190,8 @@
   .circle1,
   .circle2,
   .circle3,
-  .circle4 {
+  .circle4,
+  .circle5 {
     display: none;
   }
   .card {
@@ -198,6 +214,11 @@
     position: relative;
     left: 410px;
     bottom: 550px;
+  }
+  .card5 {
+    position: relative;
+    left: 5px;
+    bottom: 680px;
   }
 }
 
@@ -226,7 +247,12 @@
   .card4 {
     position: relative;
     left: 530px;
-    bottom: 460px;
+    bottom: 440px;
+  }
+  .card5 {
+    position: relative;
+    left: 18px;
+    bottom: 660px;
   }
 }
 
@@ -252,7 +278,12 @@
   .card4 {
     position: relative;
     left: 720px;
-    bottom: 460px;
+    bottom: 430px;
+  }
+  .card5 {
+    position: relative;
+    left: 190px;
+    bottom: 650px;
   }
 }
 
@@ -279,5 +310,10 @@
     position: relative;
     left: 1350px;
     bottom: 550px;
+  }
+  .card5 {
+    position: relative;
+    left: 790px;
+    bottom: 650px;
   }
 }

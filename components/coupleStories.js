@@ -1,4 +1,5 @@
 import styles from "../styles/CoupleStories.module.css";
+import FalseFooter from "./falseFooter";
 
 export default function CoupleStories() {
   return (
@@ -23,17 +24,19 @@ export default function CoupleStories() {
         <div className={styles.circle4}>
           <img src="/svg/ellipse.svg" />
         </div>
+        <div className={styles.circle5}>
+          <img src="/svg/ellipse.svg" />
+        </div>
 
         <div className={styles.card}>
           <div className={styles.image}>
-            <img src="" />
+            <img src="/images/str1.png" />
           </div>
           <div className={styles.info}>
-            <h2>Our First Date</h2>
+            <h2>Our first date (18th July, 2020)</h2>
             <p>
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequat duis enim velit mollit.
-              Exercitation veniam consequat sunt nostrud amet.
+              After several days of texting and calling via WhatsApp, we
+              scheduled to meet at M and I Restaurant in Port Harcourt, Nigeria.
             </p>
           </div>
           <div className={styles.arrow}>
@@ -43,15 +46,11 @@ export default function CoupleStories() {
 
         <div className={styles.card2}>
           <div className={styles.image}>
-            <img src="" />
+            <img src="/images/sp8.png" />
           </div>
           <div className={styles.info}>
-            <h2>Winter 2012</h2>
-            <p>
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequat duis enim velit mollit.
-              Exercitation veniam consequat sunt nostrud amet.
-            </p>
+            <h2>DevFest Port Harcourt (Dec, 2021)</h2>
+            <p>This is us at DevFest Port Harcourt in 2021.</p>
           </div>
           <div className={styles.arrow2}>
             <img src="svg/arrow2.svg" />
@@ -63,11 +62,10 @@ export default function CoupleStories() {
             <img src="" />
           </div>
           <div className={styles.info}>
-            <h2>Winter 2012</h2>
+            <h2>The Engagement (12th June, 2022)</h2>
             <p>
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequat duis enim velit mollit.
-              Exercitation veniam consequat sunt nostrud amet.
+              The surprise engagement took place at South 66 Port Harcourt,
+              where we celebrated with close friends.
             </p>
           </div>
           <div className={styles.arrow}>
@@ -77,18 +75,30 @@ export default function CoupleStories() {
 
         <div className={styles.card4}>
           <div className={styles.image}>
-            <img src="" />
+            <img src="/images/str2.png" />
           </div>
           <div className={styles.info}>
-            <h2>The Proposal</h2>
-            <p>
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequat duis enim velit mollit.
-              Exercitation veniam consequat sunt nostrud amet.
-            </p>
+            <h2>Tech for Good (October, 2022)</h2>
+            <p>Here&#39;s us at Tech for Good 2021 organized by Techrity. </p>
           </div>
           <div className={styles.arrow2}>
             <img src="svg/arrow2.svg" />
+          </div>
+        </div>
+
+        <div className={styles.card5}>
+          <div className={styles.image}>
+            <img src="/images/str3.png" />
+          </div>
+          <div className={styles.info}>
+            <h2>At a mutual friends wedding</h2>
+            <p>
+              Here is us at Gospel Ononwi&#39;s wedding, where we were
+              co-groomsmen{" "}
+            </p>
+          </div>
+          <div className={styles.arrow}>
+            <img src="svg/arrow1.svg" />
           </div>
         </div>
       </section>

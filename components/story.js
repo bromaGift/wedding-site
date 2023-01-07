@@ -10,7 +10,10 @@ export default function Story() {
             <img className={styles.image} src="/images/him.png" />
 
             <div className={styles.details}>
-              <h2>Godwin Jimmy</h2>
+              <h2>
+                Akpabio, Godwin <br />
+                Jimmy
+              </h2>
               <h3>Groom</h3>
               <div className={styles.socials}>
                 <Link href="#">
@@ -22,18 +25,18 @@ export default function Story() {
                 <Link href="#">
                   <img src="/svg/twiter.svg" />
                 </Link>
+                <Link href="#">
+                  <img src="/svg/tiktok.svg" />
+                </Link>
               </div>
-            </div>
-            <div className={styles.btn}>
-              <Link href="/his-story">His Story</Link>
             </div>
           </div>
 
           <div className={styles.groom}>
-            <img className={styles.image} src="/images/her.png" />
+            <img className={styles.image} src="/images/owas.png" />
 
-            <div className={styles.details}>
-              <h2>Owanate Amachree</h2>
+            <div className={styles.details1}>
+              <h2>Princess Owanate M. Amachree</h2>
               <h3>Bride</h3>
               <div className={styles.socials}>
                 <Link href="#">
@@ -45,10 +48,10 @@ export default function Story() {
                 <Link href="#">
                   <img src="/svg/twiter.svg" />
                 </Link>
+                <Link href="#">
+                  <img src="/svg/tiktok.svg" />
+                </Link>
               </div>
-            </div>
-            <div className={styles.btn}>
-              <Link href="/her-story">Her Story</Link>
             </div>
           </div>
         </div>
