@@ -44,7 +44,7 @@ export default function Event() {
 
       <div className={styles.section}>
         <h1>RECEPTION</h1>
-        <h2>FEBRUARY 11, 2021</h2>
+        <h2>FEBRUARY 11, 2023</h2>
         <h3>2:00 PM - 7:00 PM</h3>
 
         <p>
