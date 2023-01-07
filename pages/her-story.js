@@ -1,4 +1,4 @@
-import FalseFooter from "../components/FalseFooter";
+import FalseFooter from "../components/falseFooter";
 
 import Hero from "../components/hero";
 import styles from "../styles/HisStory.module.css";

@@ -1,5 +1,5 @@
 import styles from "../styles/event.module.css";
-import FalseFooter from "../components/FalseFooter";
+import FalseFooter from "../components/falseFooter";
 import Hero from "../components/hero";
 
 export default function EventSchedule() {
