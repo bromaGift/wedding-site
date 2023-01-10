@@ -1,7 +1,7 @@
 .container {
   display: flex;
   padding-top: 20px;
-  padding-bottom: 60px;
+  padding-bottom: 80px;
   align-items: center;
   justify-content: center;
 }
@@ -9,14 +9,13 @@
 .container input {
   border: 1px solid #000000;
   border-radius: 20px 0px 0px 20px;
-  padding: 20px 100px;
-
+  padding: 20px;
+  width: 40%;
   font-family: "Mulish";
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
   line-height: 20px;
-
   color: #2c1a18;
 }
 
@@ -43,4 +42,13 @@
   background-color: #e5e5e5;
   border: 1px solid #e5e5e5;
   color: black;
+}
+
+@media (max-width: 600px) {
+  .container input {
+    width: 65%;
+  }
+  .container button {
+    padding: 14px 20px;
+  }
 }
