@@ -5,7 +5,7 @@ export default function Footer() {
     <div className={styles.container1}>
       <div className={styles.top}>
         <h1>Time to celebrate</h1>
-        <p>Lorem ipsum dolor sit amet</p>
+
         <img src="/svg/love.svg" />
       </div>
       <div className={styles.section}>

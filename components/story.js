@@ -36,7 +36,9 @@ export default function Story() {
             <img className={styles.image} src="/images/owas.png" />
 
             <div className={styles.details1}>
-              <h2>Princess Owanate M. Amachree</h2>
+              <h2>
+                Princess Owanate <br /> M. Amachree
+              </h2>
               <h3>Bride</h3>
               <div className={styles.socials}>
                 <Link href="#">

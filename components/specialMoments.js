@@ -15,8 +15,8 @@ export default function SpecialMoments() {
   return (
     <div className={styles.container}>
       <div className={styles.top}>
-        <h1>Our Special Momments</h1>
-        <h2>Lorem ipsum dolor sit amet.</h2>
+        <h1>Our Special Moments</h1>
+        {/* <h2>Lorem ipsum dolor sit amet.</h2> */}
         <img src="/svg/love.svg" />
       </div>
 

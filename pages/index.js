@@ -4,7 +4,6 @@ import CoupleStories from "../components/coupleStories";
 import Event from "../components/event";
 import Hero from "../components/hero";
 import Moments from "./moments";
-import Nfts from "../components/nfts";
 import SeeYou from "../components/falseFooter";
 import Story from "../components/story";
 import Timer from "../components/timer";
@@ -12,6 +11,7 @@ import styles from "../styles/Home.module.css";
 import Footer from "../components/footer";
 import SpecialMoments from "../components/specialMoments";
 import FalseFooter from "../components/falseFooter";
+import Rsvp from "../components/rsvp";
 
 export default function Home() {
   return (
@@ -24,20 +24,20 @@ export default function Home() {
           content="welcome to the Becoming OG wedding site"
         />
       </Head>
-      <Hero />
+      <Hero actInd={0} />
       <div className={styles.img}>
         <img src="/images/hero image.png" />
       </div>
       <Timer />
       <Story />
       <SpecialMoments />
-      {/* <Nfts /> */}
       <CoupleStories />
 
       <Event />
 
       {/* <Celebrate /> */}
       <FalseFooter />
+      <Rsvp />
       <Footer />
     </>
   );

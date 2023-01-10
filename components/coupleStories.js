@@ -6,7 +6,7 @@ export default function CoupleStories() {
     <div className={styles.container}>
       <div className={styles.top}>
         <h1>Stories We Share</h1>
-        <p>Lorem ipsum dolor sit amet.</p>
+
         <img src="/svg/love.svg" />
       </div>
 
