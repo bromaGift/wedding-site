@@ -37,7 +37,7 @@ export default function Hero() {
       </div>
       <div className={styles.container}>
         <h1>The wedding of</h1>
-        <h2>OWANATE & JIMMY</h2>
+        <h2>OWANATE & Godwin</h2>
 
         <section className={styles.section}>
           <ul>
