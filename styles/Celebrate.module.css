@@ -1,72 +1,54 @@
 .container {
-  padding: 80px 50px;
+  padding-top: 10px;
+  padding-bottom: 60px;
 }
-.top {
+.form {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  margin-bottom: 40px;
 }
-.top h1 {
-  font-family: "Dancing Script";
+.form label {
+  display: block;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 137.5%;
+  margin-bottom: 6px;
+  color: #2c1a18;
+}
+.form input {
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding: 12px;
+  width: 320px;
+  outline-color: #e58776;
+  margin-bottom: 10px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 137.5%;
+  color: #2c1a18;
+}
+
+.btn {
+  background: #000;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px;
+  font-family: "Mulish";
   font-style: normal;
   font-weight: 700;
-  font-size: 36px;
-  line-height: 43px;
-
-  color: #401528;
-}
-.container form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 40px;
-}
-.label {
-  font-family: "Mulish";
-  font-style: normal;
-  font-weight: 600;
   font-size: 16px;
-  line-height: 23px;
-  /* identical to box height */
-  color: #392826;
-  margin-bottom: 10px;
-}
-
-.input {
-  margin-bottom: 10px;
-}
-.input input {
-  padding: 10px;
-  min-width: 300px;
-  border: 1px solid #bab6b6;
-  border-radius: 5px;
-  font-family: "Mulish";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 23px;
-  outline-color: #e58776;
-  /* identical to box height */
-  color: #392826;
-}
-.button {
-}
-.button button {
-  font-family: "Mulish";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 25px;
-  /* identical to box height */
-  padding: 10px;
-  min-width: 300px;
-  cursor: pointer;
-  text-align: center;
-  border: 1px solid #e58776;
-  background: #e58776;
-  border-radius: 10px;
+  width: 320px;
+  line-height: 34px;
   color: #ffffff;
-  margin-top: 20px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: transparent;
+  border: 2px solid #e58776;
+  color: #e58776;
 }

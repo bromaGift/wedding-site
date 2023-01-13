@@ -3,38 +3,18 @@ import styles from "../styles/Celebrate.module.css";
 export default function Celebrate() {
   return (
     <div className={styles.container}>
-      <div className={styles.top}>
-        <h1>Time to Celebrate</h1>
-        <img src="/svg/love.svg" />
-      </div>
-      <form>
+      <form className={styles.form}>
         <div>
-          <div className={styles.label}>
-            <label>Full Name</label>
-          </div>
-          <div className={styles.input}>
-            <input type="text" />
-          </div>
+          <label>Full Name</label>
+          <input type="text" />
         </div>
+
         <div>
-          <div className={styles.label}>
-            <label>Email Address</label>
-          </div>
-          <div className={styles.input}>
-            <input type="email" />
-          </div>
+          <label>Email</label>
+          <input type="text" />
         </div>
-        <div>
-          <div className={styles.label}>
-            <label>No of Guests</label>
-          </div>
-          <div className={styles.input}>
-            <input type="number" />
-          </div>
-        </div>
-        <div className={styles.button}>
-          <button>RSVP</button>
-        </div>
+
+        <button className={styles.btn}>RSVP</button>
       </form>
     </div>
   );

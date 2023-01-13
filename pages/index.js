@@ -11,7 +11,6 @@ import styles from "../styles/Home.module.css";
 import Footer from "../components/footer";
 import SpecialMoments from "../components/specialMoments";
 import FalseFooter from "../components/falseFooter";
-import Rsvp from "../components/rsvp";
 
 export default function Home() {
   return (
@@ -35,9 +34,9 @@ export default function Home() {
 
       <Event />
 
-      {/* <Celebrate /> */}
       <FalseFooter />
-      <Rsvp />
+      <Celebrate />
+
       <Footer />
     </>
   );
