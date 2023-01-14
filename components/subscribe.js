@@ -2,7 +2,7 @@ import styles from "../styles/Celebrate.module.css";
 import React, { useState, useRef } from "react";
 import axios from "axios";
 
-export default function subscribe() {
+export default function Subscribe() {
   const [email, setEmail] = useState("");
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
