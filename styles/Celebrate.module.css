@@ -52,3 +52,18 @@
   border: 2px solid #e58776;
   color: #e58776;
 }
+
+.err {
+  color: red;
+  font-family: "Mulish";
+  font-style: normal;
+}
+
+.success {
+  color: blue;
+  font-family: "Mulish";
+  font-style: normal;
+}
+.btnloading {
+  color: #e58776;
+}

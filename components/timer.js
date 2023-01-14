@@ -43,6 +43,7 @@ export default function Timer() {
         <h1>Wedding Starts In</h1>
         <img src="/svg/love.svg" />
       </div>
+
       <div className={styles.timer}>
         <div className={styles.days}>
           <h2>{timeLeft.days}</h2>
@@ -58,7 +59,7 @@ export default function Timer() {
         </div>
         <div className={styles.days}>
           <h2>{timeLeft.seconds}</h2>
-          <p>seconds</p>
+          <p>Seconds</p>
         </div>
       </div>
     </div>

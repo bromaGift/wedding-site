@@ -24,13 +24,15 @@ export default function HerStory() {
             of said conference, although our paths didn&#39;t cross that day as
             we were not familiar with each other, it gave room for future
             correspondences to happen.
-            <p>
-              {" "}
-              After the event, I later got a message from Godwin via Twitter DM
-              asking if I got home safely and I responded in the affirmative. We
-              talked about careers and that led to us exchanging contacts. Since
-              then we have been in touch from time to time via whatsapp.
-            </p>{" "}
+          </p>
+          <p>
+            {" "}
+            After the event, I later got a message from Godwin via Twitter DM
+            asking if I got home safely and I responded in the affirmative. We
+            talked about careers and that led to us exchanging contacts. Since
+            then we have been in touch from time to time via whatsapp.
+          </p>{" "}
+          <p>
             One faithful day there was a controversial topic which i posted on
             Whatsapp and he commented and gave his opinion on the matter, and we
             touched on a lot of topics that showed we had similar interests and
