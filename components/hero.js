@@ -29,6 +29,11 @@ export default function Hero() {
       title: "Events Schedule",
       path: "/event-schedule",
     },
+    {
+      id: 5,
+      title: "Gift us",
+      path: "/gift-us",
+    },
   ];
   return (
     <>

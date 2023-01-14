@@ -59,7 +59,7 @@ export default function CoupleStories() {
 
         <div className={styles.card3}>
           <div className={styles.image}>
-            <img src="" />
+            <img src="images/engagem.png" />
           </div>
           <div className={styles.info}>
             <h2>The Engagement (12th June, 2022)</h2>

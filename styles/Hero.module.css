@@ -4,7 +4,7 @@
   justify-content: flex-start;
 }
 .container {
-  padding: 10px 40px;
+  padding: 5px 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -71,6 +71,9 @@
 }
 
 @media (max-width: 600px) {
+  .logo img {
+    width: 100px;
+  }
   .container {
     padding: 30px 10px;
   }
@@ -84,11 +87,11 @@
     padding: 0 2px;
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 15px;
   }
   .mainLink {
     font-weight: 400;
-    font-size: 15px;
-    line-height: 20px;
+    font-size: 14.1px;
+    line-height: 22px;
   }
 }
