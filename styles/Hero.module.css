@@ -104,14 +104,14 @@
     font-size: 30px;
   }
   .section ul {
-    padding: 0 2px;
+    padding: 0 1px;
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 10px;
   }
   .mainLink {
     font-weight: 400;
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 14px;
+    line-height: 20px;
   }
 }
