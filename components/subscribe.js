@@ -30,7 +30,7 @@ export default function Subscribe() {
   };
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="rsvp">
       <form className={styles.form}>
         <div>
           <label>First Name</label>
@@ -75,7 +75,10 @@ export default function Subscribe() {
 
         {state === "ERROR" && <p className={styles.err}>{errorMessage}</p>}
         {state === "SUCCESS" && (
-          <p className={styles.success}>Success! Thank you</p>
+          <p className={styles.success}>
+            Thanks for reserving a seat, we will be in contacct with you via
+            Email.
+          </p>
         )}
       </form>
     </div>

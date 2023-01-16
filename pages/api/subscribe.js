@@ -37,7 +37,7 @@ export default async (req, res) => {
 
     if (response.status >= 400) {
       return res.status(400).json({
-        error: `Error. `,
+        error: `This email has already been used `,
       });
     }
 
