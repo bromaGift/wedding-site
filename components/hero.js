@@ -38,7 +38,7 @@ export default function Hero() {
 
       title: "RSVP",
 
-      path: "#rsvp",
+      path: "/#rsvp",
      }
   ];
   return (
