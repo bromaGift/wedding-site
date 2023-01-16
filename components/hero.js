@@ -34,6 +34,12 @@ export default function Hero() {
       title: "Gift us",
       path: "/gift-us",
     },
+    {id: 6,
+
+      title: "RSVP",
+
+      path: "#rsvp",
+     }
   ];
   return (
     <>
@@ -57,11 +63,7 @@ export default function Hero() {
               </li>
             ))}
           </ul>
-          <Link href="#rsvp">
-
-          <button className={styles.btn}>RSVP</button>
-
-        </Link>
+          
         </section>
         
       </div>
