@@ -104,10 +104,11 @@
     font-size: 30px;
   }
   .section ul {
-    padding: 0 1px;
+    padding: 0 2px;
     display: flex;
     align-items: center;
-    gap: 10px;
+    flex-wrap:wrap;
+    gap: 15px;
   }
   .mainLink {
     font-weight: 400;
