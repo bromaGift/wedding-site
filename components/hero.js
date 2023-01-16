@@ -57,10 +57,13 @@ export default function Hero() {
               </li>
             ))}
           </ul>
-        </section>
-        <Link href="#rsvp">
+          <Link href="#rsvp">
+
           <button className={styles.btn}>RSVP</button>
+
         </Link>
+        </section>
+        
       </div>
     </>
   );
